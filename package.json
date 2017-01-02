@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --harmony index.js",
+    "start": "node --harmony index.js",
     "release": "standard-version && git push --follow-tags origin HEAD"
   },
   "dependencies": {
     "console-stamp": "^0.2.2",
-    "virtual-assistant": "^0.1.0",
-    "virtual-assistant-plugin-tictactoe": "^0.1.0"
+    "virtual-assistant": "^0.3.1",
+    "virtual-assistant-plugin-tictactoe": "^0.1.2",
+    "virtual-assistant-plugin-regexp-challenge": "^0.1.0"
   },
   "devDependencies": {
     "standard-version": "^4.0.0"
