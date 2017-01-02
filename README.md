@@ -4,7 +4,7 @@ This is my chat bot based on https://github.com/denouche/virtual-assistant
 
 To add features to the bot, just add the npm dependencies and import the plugins to the bot.
 
-For example to add the ability to the bot the play tic-tac-toe, install https://github.com/denouche/virtual-assistant-plugin-tictactoe and include it into the bot configuration.
+For example to add the ability to the bot to play tic-tac-toe, just install https://github.com/denouche/virtual-assistant-plugin-tictactoe and include it into the bot configuration.
 
 ## Try it in local
 
