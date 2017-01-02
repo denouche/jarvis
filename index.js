@@ -15,4 +15,3 @@ let featureList = [
 let assistant = new VirtualAssistant(featureList, options);
 assistant.run();
 
-
