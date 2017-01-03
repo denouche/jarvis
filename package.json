@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "console-stamp": "^0.2.2",
-    "virtual-assistant": "^0.6.0",
+    "virtual-assistant": "^0.7.0",
     "virtual-assistant-plugin-hello-world": "^0.2.0",
     "virtual-assistant-plugin-regexp-challenge": "^0.3.0",
     "virtual-assistant-plugin-tictactoe": "^0.3.0"
