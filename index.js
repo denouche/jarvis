@@ -10,7 +10,10 @@ let featureList = [
         require('virtual-assistant-plugin-hello-world')
     ],
     options = {
-        slack: { token: process.env.SLACK_TOKEN }
+        slack: {
+        	token: process.env.SLACK_TOKEN,
+        	administrators: []
+        }
     };
 
 let assistant = new VirtualAssistant(featureList, options);
