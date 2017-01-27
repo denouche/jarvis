@@ -5,15 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --harmony index.js",
+    "start": "node --harmony-regexp-lookbehind index.js",
     "release": "standard-version && git push --follow-tags origin HEAD"
   },
   "dependencies": {
     "console-stamp": "^0.2.2",
-    "virtual-assistant": "^0.10.0",
-    "virtual-assistant-plugin-hello-world": "^0.4.0",
-    "virtual-assistant-plugin-regexp-challenge": "^0.5.0",
-    "virtual-assistant-plugin-tictactoe": "^0.5.0"
+    "virtual-assistant": "^0.12.0",
+    "virtual-assistant-plugin-hello-world": "^0.5.0",
+    "virtual-assistant-plugin-regexp-challenge": "^0.7.0",
+    "virtual-assistant-plugin-tictactoe": "^0.5.0",
+    "virtual-assistant-plugin-sed-challenge": "^0.5.0"
   },
   "devDependencies": {
     "standard-version": "^4.0.0"
