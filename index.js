@@ -1,9 +1,9 @@
 'use strict';
 
-require('console-stamp')(console);
+const debug = require('debug')('jarvis'),
+    VirtualAssistant = require('virtual-assistant').VirtualAssistant;
 
-const VirtualAssistant = require('virtual-assistant').VirtualAssistant;
-
+debug('launching jarvis');
 let featureList = [
         require('virtual-assistant-plugin-tictactoe'),
         require('virtual-assistant-plugin-regexp-challenge'),
@@ -19,4 +19,5 @@ let featureList = [
 
 let assistant = new VirtualAssistant(featureList, options);
 assistant.run();
+debug('launched jarvis');
 
