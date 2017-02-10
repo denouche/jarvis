@@ -12,7 +12,7 @@
   "dependencies": {
     "console-stamp": "^0.2.2",
     "debug": "^2.6.0",
-    "virtual-assistant": "^0.16.0",
+    "virtual-assistant": "^0.18.0",
     "virtual-assistant-plugin-hello-world": "^0.5.0",
     "virtual-assistant-plugin-regexp-challenge": "^0.8.0",
     "virtual-assistant-plugin-sed-challenge": "^0.6.0",
