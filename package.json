@@ -15,7 +15,7 @@
     "virtual-assistant": "^0.19.0",
     "virtual-assistant-plugin-hello-world": "^0.5.0",
     "virtual-assistant-plugin-regexp-challenge": "^0.9.0",
-    "virtual-assistant-plugin-sed-challenge": "^0.6.0",
+    "virtual-assistant-plugin-sed-challenge": "^0.7.0",
     "virtual-assistant-plugin-tictactoe": "^0.5.0"
   },
   "devDependencies": {
